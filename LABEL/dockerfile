@@ -1,0 +1,5 @@
+FROM almalinux:8
+LABEL TRAINING="DEVOPS"\
+      TRAINER="SIVAKUMAR"
+CMD [ "nginx","-g","daemon off;" ]
+#docker images --filter label=key=value      
