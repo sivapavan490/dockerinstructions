@@ -57,3 +57,6 @@ WORKDIR :-
 ARG :-
 
 * ARG instruction can be used before FROM instruction to provide values to FROM instruction.
+
+
+
